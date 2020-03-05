@@ -1,57 +1,108 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="css/style.css" rel="stylesheet">
-    <title>Jane Doe - Contact</title>
+<head>
+  <!-- configurações da pagina -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jane Doe - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-        <header>
+  <!-- conteúdo visivel para o usuario -->
+  <header>
+    <h1>Jane Doe</h1>
 
-                <h1>Jane Doe</h1>
-        
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="music.html">Music</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            
-            <main id="contact">
-             <div>
-                <h2 id="h2Contact">Contact</h2>
-                <h3 id="h3Contact">MANAGEMENT | Karen Blanche</h3>
-                <p class="pContact"><a href="mailto:info@mysite.com"></a> email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
-            </div>
-            <hr>
-            <div>
-                    <h3 id="h3Contact">BOOKING | Daniel Ku</h3>
-                    <p class="pContact">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                    <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
-                </div>
-                <hr>
-                <div>
-                        <h3 id="h3Contact">LABEL | Wix Records, Jake Coldham</h3>
-                        <p class="pContact">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                        <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
-                    </div>
-                    <hr>
-                    <div>
-                            <h3 id="h3Contact">PR | That Girl Pr, Sarah Brookstone</h3>
-                            <p class="pContact">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                            <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
-                        </div>
-                        <hr>
-            </main>
-            <footer>
-                    <p>copyright - jane doe</p>
-                </footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="contact">
+      <h2 id="h2Contact">Contact</h2>
+    <section id="Form-mapa" class="duas-colunas">
+      <div><form action="" method="POST">
+        <label>Nome</label>
+        <br>
+        <input type="text" name="nome inteiro" class="txt">
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="email" name="Email" class="txt">
+        <br>
+        <label>Mensagem</label>
+        <br>
+        <textarea name="Mensagem" class="txt" id="txtarea"></textarea>
+        <br>
+        <br>
+        <label>How did you found Jan's music?</label>
+        <br>
+        <input type="radio" name="marketing" value="instagram"><label for="instagram">Instagram</label>
+        <br>
+        <input type="radio" name="marketing" value="facebook"><label for="facebook">Facebook</label>
+        <br>
+        <input type="radio" name="marketing" value="youtube"><label for="youtube">Youtube</label>
+        <br>
+        <br>
+        <input type="checkbox" name="newlester" value="sim"><label for="newlester">Do you want to subscrible ourn newlester?</label>
+        <br>
+        <button type="submit" class="button">Send</button>
+        <br>
+
+
+        </form>
+      </div>
+      <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.191902814306!2d-46.6753419!3d-23.6026123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1583433286909!5m2!1spt-BR!2sbr" width="600" height="370" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+
+
+    </section>
+    <hr>
+    <section id="contatos">
+      <div>
+          
+          <section>
+          <h3 id="h3Contact">MANAGEMENT | Karen Blanche</h3>
+          <p class="pContact"><a href="mailto:info@mysite.com"></a> email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+          <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
+      </div>
+      <hr>
+    </section>
+    <section>
+      <div>
+              <h3 id="h3Contact">BOOKING | Daniel Ku</h3>
+              <p class="pContact">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+              <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
+          </div>
+          <hr>
+        </section>
+        <section>
+          <div>
+                  <h3 id="h3Contact">LABEL | Wix Records, Jake Coldham</h3>
+                  <p class="pContact">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                  <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
+              </div>
+              <hr>
+            </section>
+            <section>
+              <div>
+                      <h3 id="h3Contact">PR | That Girl Pr, Sarah Brookstone</h3>
+                      <p class="pContact">email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                      <p class="pContact">phone: <a href="tel:123-456-789">123-456-789</a></p>
+                  </div>
+                 
+                </section>
+                </section>
+  </main>
+  <footer>
+    <p>copyright - jane doe</p>
+  </footer>
 </body>
+
 </html>

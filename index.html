@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="css/style.css" rel="stylesheet">
-    <title>Jane Doe - Home</title>
+<head>
+  <!-- configurações da pagina -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jane Doe - Home</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
+  <!-- conteúdo visivel para o usuario -->
+  <header>
+    <h1>Jane Doe</h1>
 
-        <h1>Jane Doe</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="banner"></section>
+    <section id="concept">
+      <h2>Concept</h2>
+      <p>Lorem <strong>ipsum dolor sit</strong> amet consectetur, adipisicing elit. Porro harum recusandae laboriosam nesciunt vel et, laborum aperiam dolores molestiae, officia fugiat praesentium velit nisi, sunt quasi ratione deleniti dicta eos.</p>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="music.html">Music</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="banner">
-        <!-- <img src="img/jane.jpg" alt="Foto da jane"> -->
-    </main>
-    <footer>
-        <p>copyright - jane doe</p>
-    </footer>
+      <p>Texto sobre:<abbr title="HyperText Markup Lanuage">HTML</abbr> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores porro corporis vel, debitis totam inventore veniam! Fugiat, quam, ipsa laboriosam dicta ratione officiis saepe architecto quos consectetur nihil in suscipit modi voluptate earum voluptates aut quasi molestias.<em> Amet distinctio </em>illum aliquam, laborum dolor reprehenderit dolorum ex sint excepturi magni veniam animi numquam. Similique maiores dolor ex! Rem, maxime? Consequatur obcaecati porro totam ut, perferendis culpa laborum aliquid error autem quae, quidem praesentium suscipit dolorum quisquam minus aspernatur <mark>repudiandae fugiat corporis</mark> dolore tempore. Repellendus sapiente molestiae error repellat totam! Consequuntur, quae?</p>
+    </section>
+
+    <section id="songs" class="duas-colunas">
+
+      <div><img src="img/ilustra.png" alt="Ilustração"> </div>
+      <div>
+        <ol>
+            <li><strong>Love</strong> | 02:40</li>
+            <li><strong>Twist In My Reality</strong> | 02:10</li>
+            <li><strong>Street Light</strong> | 03:28</li>
+            <li><strong>Love Don’t Live Here Anymore (Cover)</strong> | 03:49</li>
+        </ol>
+      </div>
+      
+    </section>
+  </main>
+  <footer>
+    <p>copyright - jane doe</p>
+  </footer>
 </body>
-</html>
 
+</html>
